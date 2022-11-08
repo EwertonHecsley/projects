@@ -24,3 +24,25 @@ const minhaFoto = () =>{
     img.id = 'minha-foto'
 }
 minhaFoto();
+
+const listaAprendizado = (parametro, parent) => {
+    const ol = document.createElement('ol');
+    ol.id = 'licoes_aprendidas';
+    for (let i = 0; i < parametro.length; i+=1){
+        const li = document.createElement('li');
+        li.innerHTML = parametro[i];
+        ol.appendChild(li);
+    }
+  parent.appendChild(ol);
+    
+}
+
+const licoesAprendidas = ['HTML','CSS','JavaScript','React','Git','Node','Back','Front','Sql','MySql'];
+
+listaAprendizado(licoesAprendidas,body);
+
+
+
+
+
+
