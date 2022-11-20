@@ -1,0 +1,58 @@
+#paleta1{
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin-left: 15px;
+}
+#paleta2{
+    background-color: blue;
+    color: white;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin-left: 15px;
+}
+#paleta3{
+    background-color: green;
+    color: white;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin-left: 15px;
+}
+#paleta4{
+    background-color: red;
+    color: white;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin-left: 15px;
+}
+.paletasAll{
+    display: flex;
+    
+}
+#quadrado{
+    border:solid 1px;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.containerTabela{
+    display: inline-flex;
+}
+
+
+
+
+
+
+
+
+
+
+
