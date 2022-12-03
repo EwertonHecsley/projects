@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(89, 250, 124);
+}
+
+textarea{
+    resize: none;
+}
+
+.container-full{
+    width: 95%;
+    margin: auto;
+    
+}
