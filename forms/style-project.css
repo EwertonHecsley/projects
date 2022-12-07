@@ -1,0 +1,52 @@
+header{
+    background-color: #001f36;
+    color: white;
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;    
+}
+
+.div-1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+
+.div-2{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    
+}
+
+.div-3{
+    width: 65%;
+    margin: 10px;
+}
+
+.div-4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerTT{
+    background-color: #fbffcd;
+    border: solid 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.container0{
+    margin: 10px;
+}
+.container1{
+    margin: 10px;
+}
+.container3{
+        margin: 15px;
+}
