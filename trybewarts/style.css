@@ -1,0 +1,28 @@
+.header{
+    background-color: rgb(50,167,145);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.trybewarts-header-logo{
+    width: 85px;
+    border-radius: 40px;
+}
+
+#trybe-logo{
+    width: 450px;
+}
+
+.titulo{
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    align-items: center;
+    flex-wrap: nowrap;
+}
