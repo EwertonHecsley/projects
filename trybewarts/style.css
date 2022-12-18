@@ -1,0 +1,96 @@
+body{
+    background-color: white
+}
+
+.header{
+    background-color: rgb(50,167,145);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.trybewarts-header-logo{
+    width: 85px;
+    border-radius: 40px;
+}
+
+#trybe-logo{
+    width: 450px;
+    height: 500px;
+}
+
+.titulo{
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 600px;
+    margin: 10px;
+}
+
+.container-geral h2{
+    text-align: center;
+    
+}
+
+.container-geral{
+    border: solid 1px;
+    border-radius: 10px;
+    width: 100%; 
+    background-color: rgb(50,167,145);
+    display: flex;
+    flex-direction: column;
+}
+
+.div-form-teto{
+    margin: 10px;
+    
+}
+
+.div-form-teto2{
+    margin: 10px;
+}
+
+#input-nome, #input-sobrenome, #input-email{
+    border-radius: 5px;
+}
+
+.barra, .barra1{
+    width: 100%;
+    border: solid 1px;
+    color: black;
+}
+
+.div-lado-lado{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.super-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-form-meio{
+    float: inline-start;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#inp-text-area{
+    border-radius: 10px 0px 10px 0px;
+}
+
+.bt-enviar-final{
+    display: block;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10px;
+}
