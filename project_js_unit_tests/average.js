@@ -9,5 +9,8 @@ const average = (array) => {
     return Math.round(valores / array.length);
 };
 
+
+
+
 module.exports = average
 
