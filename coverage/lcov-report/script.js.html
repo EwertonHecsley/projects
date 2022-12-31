@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
-                <span class="quiet">Statements</span>
-                <span class='fraction'>7/14</span>
-            </div>
-        
-            
-            <div class='fl pad1y space-right2'>
                 <span class="strong">40% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>8/20</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>2/5</span>
+                <span class='fraction'>0/6</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>1/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">53.84% </span>
+                <span class="strong">38.88% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>7/13</span>
+                <span class='fraction'>7/18</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -93,65 +93,86 @@
 <a name='L28'></a><a href='#L28'>28</a>
 <a name='L29'></a><a href='#L29'>29</a>
 <a name='L30'></a><a href='#L30'>30</a>
-<a name='L31'></a><a href='#L31'>31</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const { EQUALITY_BINARY_OPERATORS } = require("@babel/types");
-const { match } = require("assert");
-const { error } = require("console");
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const average = (array) =&gt; {
 &nbsp;
-const average = (array) =&gt; {
+    let valores = 0
 &nbsp;
-&nbsp;
-    <span class="missing-if-branch" title="else path not taken" >E</span>if(typeof array !== 'number' || <span class="branch-1 cbranch-no" title="branch not covered" >array === "" </span>|| <span class="branch-2 cbranch-no" title="branch not covered" >array === [])</span>{
-        throw new Error('Valor inválido, deve ser tipo "numero"');
+    for (let index = 0; index &lt; array.length; index += 1) {
+        valores = valores + array[index];
     }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    try {</span>
-&nbsp;
-        let valores = <span class="cstat-no" title="statement not covered" >0</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    for (let index = <span class="cstat-no" title="statement not covered" >0;</span> index &lt; array.length; index += 1) {</span>
-<span class="cstat-no" title="statement not covered" >        valores = valores + array[index];</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    return Math.round(valores / array.length);</span>
-        
-    } catch (error) {
-&nbsp;
-<span class="cstat-no" title="statement not covered" >        return error.message</span>
-        
-    }
+    return Math.round(valores / array.length);
 };
 &nbsp;
-module.exports = average
+const numbers = <span class="fstat-no" title="function not covered" >(a</span>rr) =&gt;{
+&nbsp;
+    let tpNumber = <span class="cstat-no" title="statement not covered" >[];</span>
+    let tpNotNumber = <span class="cstat-no" title="statement not covered" >[];</span>
+    let resposta;
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    for( let index = <span class="cstat-no" title="statement not covered" >0;</span> index &lt; arr.length; index +=1){</span>
+<span class="cstat-no" title="statement not covered" >        if( typeof arr[index] !== 'number'){</span>
+<span class="cstat-no" title="statement not covered" >            tpNotNumber.push(arr[index]);</span>
+        }else <span class="cstat-no" title="statement not covered" >if( typeof arr[index] === 'number'){</span>
+<span class="cstat-no" title="statement not covered" >            tpNumber.push(arr[index]);</span>
+        }
+    }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    if(tpNotNumber == ""){</span>
+<span class="cstat-no" title="statement not covered" >        resposta = true</span>
+    }else{
+<span class="cstat-no" title="statement not covered" >        resposta = false</span>
+    }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >return resposta</span>
+&nbsp;
+}
+&nbsp;
+module.exports = average, numbers
 &nbsp;
 &nbsp;</pre></td></tr></table></pre>
 
@@ -160,7 +181,7 @@ module.exports = average
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-12-30T20:44:35.663Z
+                at 2022-12-31T16:36:42.681Z
             </div>
         <script src="prettify.js"></script>
         <script>
