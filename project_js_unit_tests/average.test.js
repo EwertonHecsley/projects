@@ -1,4 +1,4 @@
-const average = require('../project_js_unit_tests/script')
+const average = require('./average')
 
 describe('Testar se função retorna média de um array', ()=>{
 

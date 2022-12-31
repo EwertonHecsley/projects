@@ -1,4 +1,4 @@
-const numbers = require('./script');
+const numbers = require('./numbers');
 
 describe('A função numbers recebe um array (tamanho variável) e retorna true se todos os parâmetros forem do tipo "number" e false caso contrário',()=>{
     it('Deve retornar TRUE se todos os elementos do array forem do timpo number',()=>{
